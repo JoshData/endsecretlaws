@@ -75,6 +75,7 @@ a, a:visited, a:hover {
 	.bigphoto .quote {
 		margin: 200px 0 0 550px;
 		max-width: 600px;
+		font-size: 26px;
 	}
 }
 
