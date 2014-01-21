@@ -7,6 +7,10 @@ body {
 	font-family: 'Duru Sans', sans-serif;
 }
 
+a, a:visited, a:hover {
+	color: #428bca;
+}
+
 .bigphoto {
 	background-color: #858682;
 	background-repeat:no-repeat;
@@ -92,4 +96,7 @@ footer {
 	padding: .5em;
 	font-size: 10px;
 	color: #555;
+}
+footer a, footer a:visited, footer a:hover {
+	color: #26a;
 }
