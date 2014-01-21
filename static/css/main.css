@@ -1,22 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
 
+body {
+	background-color: #858682;
+	padding: 0;
+	margin: 0;
+	font-family: 'Duru Sans', sans-serif;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.bigphoto {
+	background-color: #858682;
+	background-repeat:no-repeat;
+	font-size: 22px;
+}
+	.bigphoto .quote {
+		padding: 1em;
+		background: rgba(1, 1, 1, 0.6);
+		color: white;
+	}
+	.bigphoto .quote .attrib2 {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.bigphoto .quote .attrib2 a {
+		color: white;
+		text-decoration: underline;
+	}
 
+	.scroll-down {
+		margin: 1.5em 0 0 0;
+		color: #AAA;
+		text-align: right;
+		font-size: 80%;
+		text-transform: uppercase;
+	}
 
+@media (max-width: 500px) {
+	.bigphoto {
+		background-image: url(../../media/8475951601_57b57f4580_o_cropped_320.jpg);
+		height: 400px;
+		font-size: 17px;
+	}
+}
+@media (min-width: 501px) and (max-width: 640px) {
+	.bigphoto {
+		background-image: url(../../media/8475951601_57b57f4580_o_cropped_640.jpg);
+		height: 600px;
+	}
+	.bigphoto .quote {
+		margin: 50px 0 0 250px;
+	}
+}
+@media (min-width: 641px) and (max-width: 1000px) {
+	.bigphoto {
+		background-image: url(../../media/8475951601_57b57f4580_o_cropped_1000.jpg);
+		background-position: 0 -120px;
+		height: 800px;
+		max-width: 1000px;
+	}
+	.bigphoto .quote {
+		margin: 100px 0 0 350px;
+	}
+}
+@media (min-width: 1001px) {
+	.bigphoto {
+		background-image: url(../../media/8475951601_57b57f4580_o_cropped_2148.jpg);
+		background-position: -200px -350px;
+		height: 1000px;
+		max-width: 2148px;
+	}
+	.bigphoto .quote {
+		margin: 200px 0 0 550px;
+		max-width: 600px;
+	}
+}
 
+.photo_credit {
+	margin-bottom: 10px;
+	background-color: #444;
+	padding: 10px;
+	font-size: 11px;
+	color: white;
+}
+.photo_credit a {
+	color: white;
+	text-decoration: underline;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+	background-color: white;
+	margin: 2em 0 0 0;
+	padding: .5em;
+	font-size: 10px;
+	color: #555;
+}
